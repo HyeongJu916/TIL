@@ -143,4 +143,8 @@
   $ git push origin master
   ```
 
-  
+
+
+
+## 5. 파일 업데이트 체크
+
