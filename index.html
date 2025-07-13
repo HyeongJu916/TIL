@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이트 디그리 취송과제 설명 영상</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <button class="close-btn">✕</button>
+            <h1>이트 디그리 취송과제 설명 영상</h1>
+            <div class="header-icons">
+                <button class="time-btn">🕐</button>
+                <button class="share-btn">↗</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="content-wrapper">
+            <div class="products-section">
+                <div class="products-header">
+                    <h2>상품 목록</h2>
+                    <label class="favorites-toggle">
+                        <input type="checkbox" id="favoritesOnly">
+                        즐겨찾기만 보기
+                    </label>
+                </div>
+                
+                <div class="products-grid" id="productsGrid">
+                    <!-- Products will be populated by JavaScript -->
+                </div>
+            </div>
+
+            <div class="cart-sidebar">
+                <div class="cart-header">
+                    <h3>장바구니</h3>
+                </div>
+                <div class="cart-items" id="cartItems">
+                    <!-- Cart items will be populated by JavaScript -->
+                </div>
+                <div class="cart-total">
+                    <div class="total-price">합계: <span id="totalPrice">0원</span></div>
+                    <button class="clear-cart-btn" id="clearCartBtn">모두 비우기</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
